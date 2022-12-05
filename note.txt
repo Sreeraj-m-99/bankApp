@@ -1,0 +1,24 @@
+
+transpiling process of converting ts to js why because browser does not have inbulit system for compile type script
+
+
+angular cli
+
+
+cli-command line interpreter
+
+node package manager -npm
+
+npm i -g @angular/cli@latest
+
+
+package .json to manage 3rd party applications
+
+read me basic working
+
+
+package.json
+
+
+
+

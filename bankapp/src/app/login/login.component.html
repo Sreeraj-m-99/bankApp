@@ -1,0 +1,16 @@
+<div class="aim">
+    <h1>{{aim}}</h1>
+</div>
+
+<div class="login">
+    <div class="loginContent">
+        <h1>Login</h1>
+        <input type="text" [placeholder]="data" id="acid" name="acno" (change)="acnoChange($event)">
+        <br><br>
+        <input type="password" placeholder="Enter password" id="pid" name="pswd" (change)="pswdchange($event)">
+        <br><br>
+        <button class="loginButton" type="submit" (click)="login()">Login</button>
+        <br>
+        <a href=""> New user?register here</a>
+    </div>
+</div>
