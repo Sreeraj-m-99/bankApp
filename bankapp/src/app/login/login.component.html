@@ -4,13 +4,15 @@
 
 <div class="login">
     <div class="loginContent">
+        <form (ngSubmit)="login()">
         <h1>Login</h1>
-        <input type="text" [placeholder]="data" id="acid" name="acno" (change)="acnoChange($event)">
+        <input type="text" [placeholder]="data" id="acid" name="acno" [(ngModel)]="acno">
         <br><br>
-        <input type="password" placeholder="Enter password" id="pid" name="pswd" (change)="pswdchange($event)">
+        <input type="password" placeholder="Enter password" id="pid" name="psw" [(ngModel)]="psw">
         <br><br>
-        <button class="loginButton" type="submit" (click)="login()">Login</button>
+        <button class="loginButton"  type="submit" >Login</button>
         <br>
-        <a href=""> New user?register here</a>
+        <a routerLink="register">New user?register here</a> 
+    </form>
     </div>
 </div>
